@@ -39,7 +39,7 @@ with open(output_path, 'w') as funct_write:
     funct_write.write("'''Sorted functions'''\n\n")
 with open(output_path, 'a') as funct_write:
     for k in KEYS:
-        funct_write.write('\ndef '+k+'('+','.join(Functions[k]['Variables'])+'):\n')
+        funct_write.write('\n\ndef '+k+'('+','.join(Functions[k]['Variables'])+'):\n')
         for L in Functions[k]['Code']:
             funct_write.write(L)
 
