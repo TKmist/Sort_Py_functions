@@ -34,7 +34,6 @@ in_file.close()
 
 KEYS = list(Functions.keys())
 KEYS.sort()
-KEYS
 
 with open(output_path, 'w') as funct_write:
     funct_write.write("'''Sorted functions'''\n\n")
