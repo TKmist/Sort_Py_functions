@@ -1,2 +1,12 @@
 # Sort_Py_functions
-The python script sorting the functions in the .py file
+
+The script reads the functions in the inputfile, sort them alphabetically, and writes into the output file.
+
+### How to use
+
+To run the script type:
+
+    python Sort_Py_functions.py <input_file> <output_file>
+   
+   
+
