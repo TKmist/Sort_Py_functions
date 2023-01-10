@@ -1,6 +1,6 @@
 # Sort_Py_functions
 
-The script reads the functions in the inputfile, sort them alphabetically, and writes into the output file.
+The script reads the functions in the input file, sort them alphabetically, and writes into the output file.
 
 ### How to use
 
